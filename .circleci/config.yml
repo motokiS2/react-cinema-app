@@ -22,7 +22,7 @@ aliases:
   - &save-cache
     save_cache:
           paths:
-            - node_modelus
+            - node_modules
           key: app-{{ checksum "package.json" }}
   - &install-aws-cli
     run:
